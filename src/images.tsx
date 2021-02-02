@@ -1,9 +1,7 @@
-import header from './assets/header.png';
-import logo from './assets/logo-normal.png';
+import aboutBg from './assets/about-bg.svg';
 
 const images = {
-    header,
-    logo
+    aboutBg
 };
 
 export default images;

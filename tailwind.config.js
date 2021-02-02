@@ -3,11 +3,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
-      serif: ['Arvo', 'serif'],
-      display: ['Lemon']
+      sans: ['Raleway', 'sans-serif'],
+      serif: ['Roboto Slab', 'serif'],
+      display: ['Varela Round', 'sans-serif']
     },
-    extend: {},
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary': '#FBFBFB'
+    }),
+    extend: {
+      colors: {
+        'aqua-light': '#C1DEE2',
+        'aqua-dark': '#89C5CC'
+      }
+    },
   },
   variants: {
     extend: {},
