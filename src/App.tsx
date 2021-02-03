@@ -1,14 +1,12 @@
 import React from 'react';
+import Header from './Header';
 import images from './images';
-import Header from './header';
 
-function App() {
-  return (
-    <div className="min-h-screen antialiased bg-aqua-dark">
-      <Header></Header>
-      <img src={images.aboutBg} alt="Imagem de fundo"></img>
-    </div>
-  );
-}
+const App = () => (
+  <div className="font-sans antialiased">
+    <Header />
+    <img src={images.aboutBg} alt="Imagem de fundo" />
+  </div>
+);
 
 export default App;
