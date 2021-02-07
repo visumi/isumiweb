@@ -19,7 +19,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['hover'],
+      transitionProperty: ['hover'],
+      transitionProperty: ['responsive', 'motion-safe', 'motion-reduce'],
+    },
   },
   plugins: [],
 }
