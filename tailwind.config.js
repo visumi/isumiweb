@@ -21,8 +21,8 @@ module.exports = {
   variants: {
     extend: {
       borderWidth: ['hover'],
-      transitionProperty: ['hover'],
-      transitionProperty: ['responsive', 'motion-safe', 'motion-reduce'],
+      transitionProperty: ['hover', 'responsive'],
+      fontSize: ['hover'],
     },
   },
   plugins: [],
