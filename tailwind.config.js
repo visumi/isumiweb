@@ -1,6 +1,6 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  purge: ['./src/**/*.tsx'],
+  darkMode: false,
   theme: {
     fontFamily: {
       sans: ['Raleway', 'sans-serif'],
@@ -16,13 +16,6 @@ module.exports = {
         'aqua-light': '#C1DEE2',
         'aqua-dark': '#89C5CC'
       }
-    },
-  },
-  variants: {
-    extend: {
-      borderWidth: ['hover'],
-      transitionProperty: ['hover', 'responsive'],
-      fontSize: ['hover'],
     },
   },
   plugins: [],
