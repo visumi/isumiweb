@@ -14,7 +14,7 @@ module.exports = {
     extend: {
       colors: {
         'aqua-light': '#C1DEE2',
-        'aqua-dark': '#89C5CC'
+        'aqua-dark': '#568f96',
       }
     },
   },
