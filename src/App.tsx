@@ -4,6 +4,7 @@ import About from './About';
 import NotFound from './NotFound';
 import Header from './Header';
 import Home from './Home';
+import Contact from './Contact';
 
 const App = () => (
   <Router>
@@ -12,6 +13,9 @@ const App = () => (
       <Switch>
         <Route path="/sobre">
           <About />
+        </Route>
+        <Route path="/contato">
+          <Contact />
         </Route>
         <Route path="/" exact>
           <Home />

@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { FiAtSign, FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import images from './images';
 
 const Home: FC = () => (
@@ -12,6 +12,11 @@ const Home: FC = () => (
           Formado em Análise de Sistemas pela UNICAMP, atualmente cursando Mestrado e trabalhando com Angular.
         </p>
         <div className="flex justify-center space-x-14 pt-4 text-3xl">
+          <a href="mailto: pancake.tf2@gmail.com">
+            <FiAtSign className="hover:transition duration-150 ease-in-out
+            transform hover:scale-125 hover:text-aqua-dark"
+            />
+          </a>
           <a href="https://github.com/visumi" rel="noreferrer" target="_blank">
             <FiGithub className="hover:transition duration-150 ease-in-out
             transform hover:scale-125"
