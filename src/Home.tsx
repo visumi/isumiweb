@@ -12,15 +12,21 @@ const Home: FC = () => (
           Formado em Análise de Sistemas pela UNICAMP, atualmente cursando Mestrado e trabalhando com Angular.
         </p>
         <div className="flex justify-center space-x-14 pt-4 text-3xl">
-          <FiGithub className="hover:transition duration-150 ease-in-out
+          <a href="https://github.com/visumi" rel="noreferrer" target="_blank">
+            <FiGithub className="hover:transition duration-150 ease-in-out
             transform hover:scale-125"
-          />
-          <FiInstagram className="hover:transition duration-150 ease-in-out
+            />
+          </a>
+          <a href="https://www.instagram.com/isumihm/" rel="noreferrer" target="_blank">
+            <FiInstagram className="hover:transition duration-150 ease-in-out
             transform hover:scale-125 hover:text-[#C1558B]"
-          />
-          <FiLinkedin className="hover:transition duration-150 ease-in-out
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/vinicius-isumi-9b5831197/" rel="noreferrer" target="_blank">
+            <FiLinkedin className="hover:transition duration-150 ease-in-out
             transform hover:scale-125 hover:text-[#006699]"
-          />
+            />
+          </a>
         </div>
       </div>
       <div className="flex flex-grow mt-12 justify-center">

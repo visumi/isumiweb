@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './About';
+import NotFound from './components/NotFound';
 import Header from './Header';
 import Home from './Home';
 
@@ -16,7 +17,7 @@ const App = () => (
           <Home />
         </Route>
         <Route path="*">
-          <h1>404</h1>
+          <NotFound />
         </Route>
       </Switch>
     </div>
