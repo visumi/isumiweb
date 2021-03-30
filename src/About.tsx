@@ -3,7 +3,7 @@ import { FiBook, FiBriefcase, FiCode } from 'react-icons/fi';
 
 const About: FC = () => (
   <div>
-    <div className="my-40 flex justify-center space-x-48">
+    <div className="my-40 flex justify-center space-x-40">
       <div>
         <FiBook className="text-6xl text-red-800 mx-auto" />
         <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Formação</p>
@@ -33,17 +33,17 @@ const About: FC = () => (
           2020-2021
         </p>
         <p className="font-sans font-semibold text-black text-xl max-w-md text-center">
-          LaRCom FEEC UNICAMP
+          LaRCom FEEC UNICAMP - Estágio
         </p>
         <p className="font-sans font-semibold text-gray-500 text-lg max-w-md text-center">
-          Líder técnico de um projeto envolvendo Netsuite da Oracle, onde fui pioneiro no desenvolvimento e
+          Líder técnico em um projeto envolvendo Netsuite da Oracle, onde fui pioneiro no desenvolvimento e
           posteriormente coordenei novos estagiários para seguirem com os trabalhos.
         </p>
         <p className="font-sans font-semibold text-black text-xl max-w-md text-center mt-6">
           2020-Hoje
         </p>
         <p className="font-sans font-semibold text-black text-xl max-w-md text-center">
-          Enforce BTG Pactual
+          Enforce BTG Pactual - Estágio
         </p>
         <p className="font-sans font-semibold text-gray-500 text-xl max-w-md text-center">
           Trabalho com desenvolvimento de Sistemas Web utilizando Angular
@@ -51,23 +51,18 @@ const About: FC = () => (
       </div>
       <div>
         <FiCode className="text-6xl text-green-700 mx-auto" />
-        <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Conhecimentos</p>
+        <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Experiências</p>
+        <p className="font-sans font-semibold text-black text-xl max-w-md text-center">Linguagens</p>
         <p className="font-sans font-semibold text-gray-500 text-xl max-w-md text-center">
-          HTML
-          <br />
-          CSS
-          <br />
-          Javascript
-          <br />
-          Typescript
-          <br />
-          Node.js
-          <br />
-          React
-          <br />
-          Angular
-          <br />
-          Netsuite
+          HTML, CSS, Javascript, Typescript, Node.js, React, Angular, Netsuite
+        </p>
+        <p className="font-sans font-semibold text-black text-xl max-w-md text-center mt-6">Habilidades</p>
+        <p className="font-sans font-semibold text-gray-500 text-xl max-w-md text-center">
+          Trabalho em grupo, vontade em liderar, dinâmico, artístico
+        </p>
+        <p className="font-sans font-semibold text-black text-xl max-w-md text-center mt-6">Idiomas</p>
+        <p className="font-sans font-semibold text-gray-500 text-xl max-w-md text-center">
+          Inglês Avançado
         </p>
       </div>
     </div>

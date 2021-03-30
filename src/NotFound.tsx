@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import images from '../images';
+import images from './images';
 
 const NotFound: FC = () => (
   <div className="flex flex-grow justify-between">
