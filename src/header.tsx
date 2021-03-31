@@ -7,7 +7,7 @@ const Header: FC = () => (
   <div className="flex lg:flex-row flex-col items-center py-10 pl-48 select-none">
     <div className="flex-grow">
       <NavLink to="/">
-        <h1 className="font-serif font-black text-4xl md:pb-0 pb-4 hover:text-gray-700">isumi</h1>
+        <h1 className="font-serif font-black text-4xl md:pb-0 pb-4 hover:text-gray-700">泉isumi</h1>
       </NavLink>
     </div>
     <div className="sm:block flex flex-col text-center mx-40">

@@ -5,7 +5,7 @@ const About: FC = () => (
   <div>
     <div className="my-40 flex justify-center space-x-12">
       <div>
-        <FiUser className="text-6xl text-yellow-400 mx-auto" />
+        <FiUser className="text-6xl text-black mx-auto" />
         <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Geral</p>
         <p className="font-sans font-semibold text-black text-xl text-center mt-6">Localização</p>
         <p className="font-sans font-semibold text-gray-500 text-xl max-w-sm text-center">
@@ -21,7 +21,7 @@ const About: FC = () => (
         </p>
       </div>
       <div>
-        <FiBook className="text-6xl text-red-800 mx-auto" />
+        <FiBook className="text-6xl text-black mx-auto" />
         <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Formação</p>
         <p className="font-sans font-semibold text-black text-xl text-center">
           2017 - 2021
@@ -43,7 +43,7 @@ const About: FC = () => (
         </p>
       </div>
       <div>
-        <FiBriefcase className="text-6xl text-indigo-900 mx-auto" />
+        <FiBriefcase className="text-6xl text-black mx-auto" />
         <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Carreira</p>
         <p className="font-sans font-semibold text-black text-xl text-center">
           2020-2021
@@ -65,7 +65,7 @@ const About: FC = () => (
         </p>
       </div>
       <div>
-        <FiCode className="text-6xl text-green-700 mx-auto" />
+        <FiCode className="text-6xl text-black mx-auto" />
         <p className="font-serif font-bold text-black text-3xl mt-2 mb-6 text-center">Experiências</p>
         <p className="font-sans font-semibold text-black text-xl max-w-sm text-center">Linguagens</p>
         <p className="font-sans font-semibold text-gray-500 text-xl max-w-sm text-center">
