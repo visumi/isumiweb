@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './About';
 import NotFound from './NotFound';
-import Header from './Header';
+import Header from './components/Header';
 import Home from './Home';
 import Contact from './Contact';
+import Projects from './Projects';
+import Discordjs from './projects/discordjs';
 
 const App = () => (
   <Router>
@@ -13,6 +15,15 @@ const App = () => (
       <Switch>
         <Route path="/sobre">
           <About />
+        </Route>
+        <Route path="/projetos/discordjs">
+          <Discordjs />
+        </Route>
+        <Route path="/projetos/barbershop">
+          <NotFound />
+        </Route>
+        <Route path="/projetos">
+          <Projects />
         </Route>
         <Route path="/contato">
           <Contact />

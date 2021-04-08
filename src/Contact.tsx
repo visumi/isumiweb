@@ -5,13 +5,13 @@ const Contact: FC = () => (
   <div>
     <div className="my-48 mx-48">
       <div className="flex flex-row">
-        <a href="mailto: pancake.tf2@gmail.com">
+        <a href="mailto: vinicius.isumi@gmail.com">
           <FiAtSign className="hover:transition duration-150 ease-in-out
             transform hover:scale-125 hover:text-aqua-dark text-4xl"
           />
         </a>
         <p className="font-serif font-semibold text-black text-3xl pl-8">
-          pancake.tf2@gmail.com
+          vinicius.isumi@gmail.com
         </p>
       </div>
       <div className="flex flex-row pt-14">

@@ -7,12 +7,12 @@ const Home: FC = () => (
     <div className="flex flex-grow justify-between">
       <div className="mx-48 my-56">
         <p className="font-serif font-black text-black text-6xl">Vinícius Isumi</p>
-        <p className="font-serif font-bold text-gray-800 text-3xl my-2">Desenvolvedor Web</p>
-        <p className="font-sans font-semibold text-gray-600 text-2xl max-w-md my-2">
+        <p className="font-serif font-bold text-gray-800 text-3xl my-2 select-none">Desenvolvedor Web</p>
+        <p className="font-sans font-semibold text-gray-600 text-2xl max-w-md my-2 select-none">
           Formado em Análise de Sistemas pela UNICAMP, atualmente cursando Mestrado e trabalhando com Angular.
         </p>
         <div className="flex justify-center space-x-14 pt-4 text-3xl">
-          <a href="mailto: pancake.tf2@gmail.com">
+          <a href="mailto: vinicius.isumi@gmail.com">
             <FiAtSign className="hover:transition duration-150 ease-in-out
             transform hover:scale-125 hover:text-aqua-dark"
             />
