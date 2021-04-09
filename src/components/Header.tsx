@@ -19,7 +19,7 @@ const data = [
 
 const Header: FC = () => (
   // const [isDarkMode, setIsDarkMode] = useState(false);
-  <div className="flex lg:flex-row flex-col items-center py-10 pl-48 select-none">
+  <div className="flex lg:flex-row flex-col mx-auto items-center py-10 lg:pl-48 select-none">
     <div className="flex-grow">
       <NavLink to="/">
         <h1 className="font-serif font-black text-4xl md:pb-0 pb-4 hover:text-gray-700">泉isumi</h1>

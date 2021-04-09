@@ -46,7 +46,7 @@ const carreiraData = [
 const expData = [
   {
     subtitle: 'Linguagens',
-    content: 'HTML, CSS, Javascript, Typescript, Node.js, React, Angular, Netsuite',
+    content: 'HTML, CSS, Javascript, Typescript, Node.js, React, Angular, Netsuite, C',
   },
   {
     subtitle: 'Idiomas',
