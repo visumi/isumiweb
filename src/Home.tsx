@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { FiAtSign, FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
-import images from './images';
+import images from './utils/images';
 
 const Home: FC = () => (
   <div>
