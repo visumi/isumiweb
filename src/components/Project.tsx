@@ -1,4 +1,7 @@
 import React, { FC } from 'react';
+import { FiChevronLeft } from 'react-icons/fi';
+import { NavLink } from 'react-router-dom';
+import images from '../utils/images';
 
 interface ProjectProps {
   title: string;
@@ -11,7 +14,14 @@ interface ProjectProps {
 
 const Project: FC<ProjectProps> = ({ title, desc, langs }: ProjectProps) => (
   <div>
-    <p className="font-serif font-bold text-black text-3xl mt-16 text-center select-none">
+    <div className="flex ml-48">
+      <NavLink to="/projetos">
+        <FiChevronLeft className="text-3xl hover:transition duration-150 ease-in-out
+            transform hover:scale-125"
+        />
+      </NavLink>
+    </div>
+    <p className="font-serif font-bold text-black text-3xl mt-6 text-center select-none">
       {title}
     </p>
     <div className="flex flex-row my-6 space-x-6 justify-center">
@@ -31,9 +41,7 @@ const Project: FC<ProjectProps> = ({ title, desc, langs }: ProjectProps) => (
       {desc}
     </p>
     <div className="flex flex-row mt-6 space-x-6 justify-center">
-      <div className="bg-red-600 w-72 h-72" />
-      <div className="bg-red-600 w-72 h-72" />
-      <div className="bg-red-600 w-72 h-72" />
+      <div className="bg-red-600 w-6/12 h-96" />
     </div>
   </div>
 );

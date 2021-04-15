@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
-import Discordjs from './projects/discordjs';
+import Discordjs from './projects/pancakebot';
 
 const App = () => (
   <Router>
@@ -16,7 +16,7 @@ const App = () => (
         <Route path="/sobre">
           <About />
         </Route>
-        <Route path="/projetos/discordjs">
+        <Route path="/projetos/pancakebot">
           <Discordjs />
         </Route>
         <Route path="/projetos/barbershop">

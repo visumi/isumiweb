@@ -8,6 +8,16 @@ import angularColor from '../assets/angularColor.svg';
 import html5Logo from '../assets/html5.svg';
 import tailwindLogo from '../assets/tailwind.svg';
 
-const images = { aboutBg, whale, discord, angular, maintenance, nodejs, angularColor, html5Logo, tailwindLogo };
+const images = {
+  aboutBg,
+  whale,
+  discord,
+  angular,
+  maintenance,
+  nodejs,
+  angularColor,
+  html5Logo,
+  tailwindLogo,
+};
 
 export default images;

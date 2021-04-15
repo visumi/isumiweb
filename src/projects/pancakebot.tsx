@@ -10,7 +10,7 @@ const desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 + 'sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 
 const Discordjs: FC = () => (
-  <Project title="Discord.JS" langs={langsData} desc={desc} />
+  <Project title="Pancake BOT" langs={langsData} desc={desc} />
 );
 
 export default Discordjs;
