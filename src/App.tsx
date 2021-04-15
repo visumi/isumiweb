@@ -10,7 +10,7 @@ import PancakeBot from './projects/pancakebot';
 
 const App = () => (
   <Router>
-    <div className="font-sans antialiased bg-primary min-h-screen overflow-y-hidden">
+    <div className="font-sans antialiased bg-gradient-to-t from-gray-50 to-gray-100 min-h-screen overflow-y-hidden">
       <Header />
       <Switch>
         <Route path="/sobre">

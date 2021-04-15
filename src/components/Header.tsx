@@ -35,6 +35,7 @@ const Header: FC = () => (
             activeClassName="border-b-2 border-black hover:scale-100 pointer-events-none"
             to={d.to}
             key={d.to}
+            exact
           >
             {d.title}
           </NavLink>

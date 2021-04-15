@@ -7,9 +7,9 @@ import whale from '../assets/whale.svg';
 import angularColor from '../assets/angularColor.svg';
 import html5Logo from '../assets/html5.svg';
 import tailwindLogo from '../assets/tailwind.svg';
-import pbot1 from '../assets/pbot1.png';
-import pbot2 from '../assets/pbot2.png';
-import pbot3 from '../assets/pbot3.png';
+import pbot from '../assets/pbot.png';
+import pbotmob from '../assets/pbotmob.png';
+import discordColor from '../assets/discordColor.svg';
 
 const images = {
   aboutBg,
@@ -21,9 +21,9 @@ const images = {
   angularColor,
   html5Logo,
   tailwindLogo,
-  pbot1,
-  pbot2,
-  pbot3,
+  pbot,
+  pbotmob,
+  discordColor,
 };
 
 export default images;

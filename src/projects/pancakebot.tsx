@@ -16,9 +16,8 @@ const PancakeBot: FC = () => (
     title="Pancake BOT"
     langs={langsData}
     desc={desc}
-    image={images.pbot1}
-    image2={images.pbot2}
-    image3={images.pbot3}
+    image={images.pbot}
+    imageMobile={images.pbotmob}
   />
 );
 

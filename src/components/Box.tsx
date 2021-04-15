@@ -9,10 +9,10 @@ interface BoxProps {
 
 const Box: FC<BoxProps> = ({ title, image, link }: BoxProps) => (
   <NavLink to={`/projetos/${link}`}>
-    <div className="w-80 flex flex-col items-end h-80 over:transition duration-500 ease-in-out
+    <div className="w-80 flex flex-col h-80 over:transition duration-500 ease-in-out
     transform hover:scale-125"
     >
-      <img src={image} alt="Imagem da Box" className="w-20 h-20 self-center my-auto" />
+      <img src={image} alt="Imagem da Box" className="mt-20 w-20 h-20 self-center my-10" />
       <p className="font-serif font-bold text-black text-3xl mx-auto mb-2">
         {title}
       </p>

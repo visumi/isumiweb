@@ -8,10 +8,6 @@ module.exports = {
       serif: ['Roboto Slab', 'serif'],
       display: ['Varela Round', 'sans-serif']
     },
-    backgroundColor: theme => ({
-      ...theme('colors'),
-      'primary': '#FBFBFB'
-    }),
     extend: {
       colors: {
         'aqua-light': '#C1DEE2',
