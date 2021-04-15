@@ -1,16 +1,25 @@
 import React, { FC } from 'react';
 import Project from '../components/Project';
 import langs from '../utils/langs';
+import images from '../utils/images';
 
 const langsData = [langs.nodejs];
-const desc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'
-+ 'tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud'
-+ 'exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor'
-+ 'in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur'
-+ 'sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+const desc = 'Nesse projeto pessoal decidi explorar a biblioteca Discord.js, que possibilita '
++ 'interagir de maneira muito fácil com a API do Discord, uma plataforma de comunicações. '
++ 'Desenvolvi uma integração utlizando a API da Riot Games que permite coletar informações sobre o jogo '
++ 'League of Legends e exibir no chat do Discord. Trabalhei também com a API do Youtube e bibliotecas próprias para '
++ 'reproduzir músicas solicitadas pelos usuários. No geral gosto de usar esse projeto para trabalhar com bibliotecas '
++ 'que sempre tive curiosidade, além de criar funções legais para os servidores que frequento no Discord. ';
 
-const Discordjs: FC = () => (
-  <Project title="Pancake BOT" langs={langsData} desc={desc} />
+const PancakeBot: FC = () => (
+  <Project
+    title="Pancake BOT"
+    langs={langsData}
+    desc={desc}
+    image={images.pbot1}
+    image2={images.pbot2}
+    image3={images.pbot3}
+  />
 );
 
-export default Discordjs;
+export default PancakeBot;

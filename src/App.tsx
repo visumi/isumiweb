@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
-import Discordjs from './projects/pancakebot';
+import PancakeBot from './projects/pancakebot';
 
 const App = () => (
   <Router>
@@ -17,7 +17,7 @@ const App = () => (
           <About />
         </Route>
         <Route path="/projetos/pancakebot">
-          <Discordjs />
+          <PancakeBot />
         </Route>
         <Route path="/projetos/barbershop">
           <NotFound />
