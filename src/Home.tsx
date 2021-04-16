@@ -5,7 +5,9 @@ import images from './utils/images';
 const Home: FC = () => (
   <div>
     <div className="flex flex-grow justify-between">
-      <div className="mx-48 my-56">
+      <div className="px-4 text-center pt-10
+       md:pt-0 md:px-0 md:text-left md:mx-48 md:my-56"
+      >
         <p className="font-serif font-black text-black text-6xl">Vinícius Isumi</p>
         <p className="font-serif font-bold text-gray-800 text-3xl my-2 select-none">Desenvolvedor Web</p>
         <p className="font-sans font-semibold text-gray-600 text-2xl max-w-md my-2 select-none">
@@ -34,7 +36,7 @@ const Home: FC = () => (
           </a>
         </div>
       </div>
-      <div className="flex flex-grow mt-12 justify-center">
+      <div className="lg:flex flex-grow mt-12 justify-center hidden">
         <img className="w-8/12" src={images.aboutBg} alt="Imagem de fundo" />
       </div>
     </div>

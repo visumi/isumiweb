@@ -7,6 +7,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
 import PancakeBot from './projects/pancakebot';
+import Barbershop from './projects/barbershop';
 
 const App = () => (
   <Router>
@@ -20,7 +21,7 @@ const App = () => (
           <PancakeBot />
         </Route>
         <Route path="/projetos/barbershop">
-          <NotFound />
+          <Barbershop />
         </Route>
         <Route path="/projetos">
           <Projects />

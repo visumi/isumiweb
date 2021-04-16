@@ -56,7 +56,9 @@ const expData = [
 
 const About: FC = () => (
   <div>
-    <div className="my-40 flex justify-center space-x-12">
+    <div className="space-y-12 mb-8 px-4
+    md:my-40 md:flex md:justify-center md:space-x-12"
+    >
       <Card title="Geral" icon={FiUser} data={geralData} />
       <Card title="Formação" icon={FiBook} data={formacaoData} />
       <Card title="Carreira" icon={FiBriefcase} data={carreiraData} />

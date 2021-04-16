@@ -10,6 +10,8 @@ import tailwindLogo from '../assets/tailwind.svg';
 import pbot from '../assets/pbot.png';
 import pbotmob from '../assets/pbotmob.png';
 import discordColor from '../assets/discordColor.svg';
+import barber from '../assets/barber.png';
+import barbermob from '../assets/barbermob.png';
 
 const images = {
   aboutBg,
@@ -24,6 +26,8 @@ const images = {
   pbot,
   pbotmob,
   discordColor,
+  barber,
+  barbermob,
 };
 
 export default images;
