@@ -60,8 +60,11 @@ const About: FC = () => (
     md:my-40 md:flex md:justify-center md:space-x-12"
     >
       <Card title="Geral" icon={FiUser} data={geralData} />
+      <div className="border-t-2 border-black " />
       <Card title="Formação" icon={FiBook} data={formacaoData} />
+      <div className="border-t-2 border-black" />
       <Card title="Carreira" icon={FiBriefcase} data={carreiraData} />
+      <div className="border-t-2 border-black" />
       <Card title="Experiências" icon={FiCode} data={expData} />
     </div>
   </div>
