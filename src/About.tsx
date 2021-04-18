@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import { FiBook, FiBriefcase, FiCode, FiUser } from 'react-icons/fi';
+import { Transition } from '@headlessui/react';
 import Card from './components/Card';
 
 const geralData = [
@@ -54,20 +55,32 @@ const expData = [
   },
 ];
 
-const About: FC = () => (
-  <div>
-    <div className="space-y-12 mb-8 px-4
-    md:my-40 md:flex md:justify-center md:space-x-12"
+const About: FC = () => {
+  const isShowing = true;
+
+  return (
+    <Transition
+      appear
+      show={isShowing}
+      enter="transition ease-in-out duration-700 delay-100 transform"
+      enterFrom="opacity-0"
+      enterTo="opacity-100"
     >
-      <Card title="Geral" icon={FiUser} data={geralData} />
-      <div className="border-t-2 border-black " />
-      <Card title="Formação" icon={FiBook} data={formacaoData} />
-      <div className="border-t-2 border-black" />
-      <Card title="Carreira" icon={FiBriefcase} data={carreiraData} />
-      <div className="border-t-2 border-black" />
-      <Card title="Experiências" icon={FiCode} data={expData} />
-    </div>
-  </div>
-);
+      <div>
+        <div className="space-y-12 mb-8 px-4
+      md:my-40 md:flex md:justify-center md:space-x-12 md:px-0 md:space-y-0"
+        >
+          <Card title="Geral" icon={FiUser} data={geralData} />
+          <div className="border-t-2 border-black " />
+          <Card title="Formação" icon={FiBook} data={formacaoData} />
+          <div className="border-t-2 border-black" />
+          <Card title="Carreira" icon={FiBriefcase} data={carreiraData} />
+          <div className="border-t-2 border-black" />
+          <Card title="Experiências" icon={FiCode} data={expData} />
+        </div>
+      </div>
+    </Transition>
+  );
+};
 
 export default About;
