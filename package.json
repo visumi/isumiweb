@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview",
-    "preview": "vite preview --port 8080"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@headlessui/react": "^1.0.0",
