@@ -68,7 +68,7 @@ const About: FC = () => {
     >
       <div>
         <div className="space-y-12 mb-8 px-4
-      md:my-40 md:flex md:justify-center md:space-x-12 md:px-0 md:space-y-0"
+      md:my-4 md:flex md:justify-center md:space-x-4 md:px-8 md:space-y-0 xl:my-40 lg:space-x-10"
         >
           <Card title="Geral" icon={FiUser} data={geralData} />
           <div className="border-t-2 border-black " />

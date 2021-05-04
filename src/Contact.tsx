@@ -16,7 +16,7 @@ const Contact: FC = () => {
     >
       <div>
         <div className="flex flex-grow justify-between">
-          <div className="pt-6 md:pt-14 md:my-48 md:mx-48 md:px-0">
+          <div className="pt-6 md:pt-14 lg:pt-12 md:mx-48 md:px-0 lg:my-0 xl:my-48">
             <div className="flex md:flex-row flex-col">
               <a href="mailto: vinicius.isumi@gmail.com">
                 <FiAtSign className="mx-auto hover:transition duration-150 ease-in-out
@@ -62,9 +62,12 @@ const Contact: FC = () => {
               </p>
             </div>
           </div>
-          <div className="lg:flex flex-grow mt-8 justify-center hidden">
+          <div className="xl:flex flex-grow mt-8 justify-center hidden">
             <img className="w-8/12" src={images.contactBg} alt="Imagem de fundo" />
           </div>
+        </div>
+        <div className="md:flex flex-grow justify-center hidden xl:hidden">
+          <img className="md:w-4/12 lg:w-3/12" src={images.contactBg} alt="Imagem de fundo" />
         </div>
       </div>
     </Transition>

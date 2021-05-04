@@ -27,7 +27,7 @@ const Header: FC = () => {
       appear
       show={isShowing}
     >
-      <div className="flex lg:flex-row flex-col mx-auto items-center py-10 lg:pl-48 select-none">
+      <div className="flex xl:flex-row flex-col mx-auto items-center py-10 xl:pl-48 select-none">
         <div className="flex-grow">
           <NavLink to="/">
             <Transition.Child
@@ -44,7 +44,7 @@ const Header: FC = () => {
           enterFrom="translate-x-full"
           enterTo="translate-x-0"
         >
-          <div className="sm:block flex flex-col text-center mx-40">
+          <div className="sm:block flex flex-col text-center xl:mx-32 md:pt-4">
             {
           data.map((d) => (
             <NavLink

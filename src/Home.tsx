@@ -22,7 +22,7 @@ const Home: FC = () => {
             leaveTo="opacity-0"
           >
             <div className="px-4 text-center pt-10
-          md:pt-0 md:px-0 md:text-left md:mx-48 md:my-56"
+          md:pt-0 md:px-0 lg:text-left md:mx-48 md:my-8 lg:px-0 xl:my-56 lg:ml-72 xl:ml-48"
             >
               <p className="font-serif font-black text-black text-6xl">Vinícius Isumi</p>
               <p className="font-serif font-bold text-gray-800 text-3xl my-2 select-none">Desenvolvedor Web</p>
@@ -61,11 +61,23 @@ const Home: FC = () => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="lg:flex flex-grow mt-8 justify-center lg:mr-10 hidden">
+            <div className="xl:flex flex-grow mt-10 xl:justify-center xl:mr-10 hidden">
               <img className="w-8/12" src={images.homeBg} alt="Imagem de fundo" />
             </div>
           </Transition.Child>
         </div>
+        <Transition.Child
+          enter="transition ease-in-out duration-1000 delay-100"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition ease-in-out duration-300"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="md:flex flex-grow md:justify-center hidden xl:hidden lg:pt-6 xl:pt-0">
+            <img className="w-3/12" src={images.homeBg} alt="Imagem de fundo" />
+          </div>
+        </Transition.Child>
       </div>
     </Transition>
   );
