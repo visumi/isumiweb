@@ -61,7 +61,7 @@ const Home: FC = () => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="lg:flex flex-grow mt-8 justify-center lg:ml-32 hidden">
+            <div className="lg:flex flex-grow mt-8 justify-center lg:mr-10 hidden">
               <img className="w-8/12" src={images.homeBg} alt="Imagem de fundo" />
             </div>
           </Transition.Child>
