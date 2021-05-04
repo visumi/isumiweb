@@ -31,7 +31,6 @@ const Header: FC = () => {
         <div className="flex-grow">
           <NavLink to="/">
             <Transition.Child
-              as="h1"
               enter="transition ease-in-out duration-1000 transform"
               enterFrom="-translate-x-full"
               enterTo="translate-x-0"

@@ -1,4 +1,5 @@
-import aboutBg from '../assets/about-bg.svg';
+import homeBg from '../assets/home-bg.png';
+import contactBg from '../assets/contact-bg.png';
 import angular from '../assets/angular.svg';
 import discord from '../assets/discord.svg';
 import maintenance from '../assets/maintenance.svg';
@@ -14,7 +15,8 @@ import barber from '../assets/barber.png';
 import barbermob from '../assets/barbermob.png';
 
 const images = {
-  aboutBg,
+  homeBg,
+  contactBg,
   whale,
   discord,
   angular,
