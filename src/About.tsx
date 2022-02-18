@@ -14,7 +14,8 @@ const geralData = [
   },
   {
     subtitle: 'Hobby',
-    content: 'Jogos de computador, gastronomia, cinema, geografia e aprender sobre novos temas',
+    content:
+      'Jogos de computador, gastronomia, cinema, geografia e aprender sobre novos temas',
   },
 ];
 
@@ -38,16 +39,22 @@ const carreiraData = [
     time: '2020 - 2021',
   },
   {
-    subtitle: 'Enforce BTG Pactual - Estágio',
+    subtitle: 'Enforce BTG Pactual - Júnior',
     content: 'Trabalho com desenvolvimento de Sistemas Web utilizando Angular',
-    time: '2020 - Hoje',
+    time: '2020 - 2021',
+  },
+  {
+    subtitle: 'Banco Original - Pleno',
+    content: 'Atuo no desenvolvimento e manutenção dos Canais Internos, trabalho com Java e Angular',
+    time: '2022 - Hoje',
   },
 ];
 
 const expData = [
   {
     subtitle: 'Linguagens',
-    content: 'HTML, CSS, Javascript, Typescript, Node.js, React, Angular, Netsuite, C',
+    content:
+      'HTML, CSS, Javascript, Typescript, Node.js, React, Angular, Netsuite, C, Java',
   },
   {
     subtitle: 'Idiomas',
@@ -67,7 +74,8 @@ const About: FC = () => {
       enterTo="opacity-100"
     >
       <div>
-        <div className="space-y-12 mb-8 px-4
+        <div
+          className="space-y-12 mb-8 px-4
       md:my-4 md:flex md:justify-center md:space-x-4 md:px-8 md:space-y-0 xl:my-40 lg:space-x-10"
         >
           <Card title="Geral" icon={FiUser} data={geralData} />

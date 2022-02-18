@@ -11,7 +11,8 @@ import Barbershop from './projects/barbershop';
 
 const App = () => (
   <Router>
-    <div className="font-sans antialiased bg-gradient-to-t from-gray-50 to-gray-100
+    <div
+      className="font-sans antialiased bg-gradient-to-t from-gray-50 to-gray-100
     min-h-screen overflow-hidden"
     >
       <Header />

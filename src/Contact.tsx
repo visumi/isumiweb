@@ -19,7 +19,8 @@ const Contact: FC = () => {
           <div className="pt-6 md:pt-14 lg:pt-12 md:mx-48 md:px-0 lg:my-0 xl:my-48">
             <div className="flex md:flex-row flex-col">
               <a href="mailto: vinicius.isumi@gmail.com">
-                <FiAtSign className="mx-auto hover:transition duration-150 ease-in-out
+                <FiAtSign
+                  className="mx-auto hover:transition duration-150 ease-in-out
               transform hover:scale-125 hover:text-aqua-dark text-4xl"
                 />
               </a>
@@ -27,13 +28,17 @@ const Contact: FC = () => {
                 vinicius.isumi@gmail.com
               </p>
               <p className="font-serif text-center font-semibold text-black pl-4 text-3xl md:hidden">
-                vinicius.isumi
-                @gmail.com
+                vinicius.isumi @gmail.com
               </p>
             </div>
             <div className="flex md:flex-row flex-col pt-12 md:pt-14">
-              <a href="https://www.linkedin.com/in/vinicius-isumi-9b5831197/" rel="noreferrer" target="_blank">
-                <FiLinkedin className="mx-auto hover:transition duration-150 ease-in-out
+              <a
+                href="https://www.linkedin.com/in/vinicius-isumi-9b5831197/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FiLinkedin
+                  className="mx-auto hover:transition duration-150 ease-in-out
               transform hover:scale-125 hover:text-[#006699] text-4xl"
                 />
               </a>
@@ -42,8 +47,13 @@ const Contact: FC = () => {
               </p>
             </div>
             <div className="flex md:flex-row flex-col pt-12 md:pt-14">
-              <a href="https://www.instagram.com/isumihm/" rel="noreferrer" target="_blank">
-                <FiInstagram className="mx-auto hover:transition duration-150 ease-in-out
+              <a
+                href="https://www.instagram.com/isumihm/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FiInstagram
+                  className="mx-auto hover:transition duration-150 ease-in-out
               transform hover:scale-125 hover:text-[#C1558B] text-4xl"
                 />
               </a>
@@ -52,8 +62,13 @@ const Contact: FC = () => {
               </p>
             </div>
             <div className="flex md:flex-row flex-col pt-12 md:pt-14">
-              <a href="https://github.com/visumi" rel="noreferrer" target="_blank">
-                <FiGithub className="mx-auto hover:transition duration-150 ease-in-out
+              <a
+                href="https://github.com/visumi"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <FiGithub
+                  className="mx-auto hover:transition duration-150 ease-in-out
               transform hover:scale-125 text-4xl"
                 />
               </a>
@@ -63,11 +78,19 @@ const Contact: FC = () => {
             </div>
           </div>
           <div className="xl:flex flex-grow mt-8 justify-center hidden">
-            <img className="w-8/12" src={images.contactBg} alt="Imagem de fundo" />
+            <img
+              className="w-8/12"
+              src={images.contactBg}
+              alt="Imagem de fundo"
+            />
           </div>
         </div>
         <div className="md:flex flex-grow justify-center hidden xl:hidden">
-          <img className="md:w-4/12 lg:w-3/12" src={images.contactBg} alt="Imagem de fundo" />
+          <img
+            className="md:w-4/12 lg:w-3/12"
+            src={images.contactBg}
+            alt="Imagem de fundo"
+          />
         </div>
       </div>
     </Transition>

@@ -14,10 +14,15 @@ const Projects: FC = () => {
       enterFrom="opacity-0"
       enterTo="opacity-100"
     >
-      <div className="flex-col
+      <div
+        className="flex-col
     flex md:flex-row md:flex-grow md:my-40 justify-center md:space-x-44 mx-auto"
       >
-        <Box title="Pancake BOT" image={images.discordColor} link="pancakebot" />
+        <Box
+          title="Pancake BOT"
+          image={images.discordColor}
+          link="pancakebot"
+        />
         <Box title="Barbershop" image={images.angularColor} link="barbershop" />
       </div>
     </Transition>
