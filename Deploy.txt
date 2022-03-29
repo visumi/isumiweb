@@ -1,0 +1,3 @@
+Rodar npm run build = "tsc && vite build";
+Pegar conteúdo gerado na pasta dist;
+Jogar na isumiwebrelease e commitar;

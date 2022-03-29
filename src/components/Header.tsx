@@ -51,7 +51,7 @@ const Header: FC = () => {
               className="inline-block font-display text-2xl mx-16 sm:py-0 py-1 px-4
               hover:transition duration-150 ease-in-out
               transform hover:scale-125"
-              activeClassName="border-b-2 border-black hover:scale-100 pointer-events-none"
+              activeClassName="text-red-800"
               to={d.to}
               key={d.to}
               exact
